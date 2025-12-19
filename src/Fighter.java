@@ -138,6 +138,6 @@ public class Fighter {
     }
 
     public Rectangle2D getBounds() {
-        return new Rectangle2D(x, y, width, height);
+        return new Rectangle2D(x, y, width, height );
     }
 }
