@@ -3,3 +3,4 @@ public class Goblin extends Fighter {
         super(x, y, 100, 160, 70, weapon, isLeftside);
     }
 }
+
