@@ -96,7 +96,7 @@ public class Projectile {
 
     public boolean isOffScreen() {
         // Updated: Check both x and y
-        return x < 0y < 0 || y > 600;
+        return x < 0 || x > 900 ||y < 0 || y > 600;
     }
 
     public Rectangle2D getBounds() {
