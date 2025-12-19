@@ -26,7 +26,7 @@ public class Fighter {
         this.weapons.add(weapon);
     }
 
-    // (bouns) switch weapons
+    // (bouns) switch weaponss
     public void switchWeapon() {
         if (!weapons.isEmpty()) {
             currentWeaponIndex = (currentWeaponIndex + 1) % weapons.size();
